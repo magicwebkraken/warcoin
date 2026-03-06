@@ -237,20 +237,10 @@
       }
 
       .hero-title {
-        font-family: "Black Ops One", sans-serif;
-        font-size: clamp(5rem, 15vw, 12rem);
-        line-height: 0.85;
-        letter-spacing: 8px;
-        color: transparent;
-        background: linear-gradient(
-          180deg,
-          var(--gold-bright) 0%,
-          var(--gold) 40%,
-          #8b5a0a 100%
-        );
-        -webkit-background-clip: text;
-        background-clip: text;
-        text-shadow: none;
+        max-width: clamp(400px, 50vw, 800px);
+        width: 100%;
+        height: auto;
+        display: block;
         position: relative;
         z-index: 2;
         animation: fadeInUp 0.8s 0.2s ease both;
@@ -1187,7 +1177,7 @@
       <div class="embers" id="embers"></div>
 
       <div class="hero-badge">⚡ CA : 0x929f3A8d87E64857A20B6a040A35ab45ddd95Aad</div>
-      <h1 class="hero-title">WAR</h1>
+      <img src="images/warlogo.png" alt="WAR" class="hero-title" />
       <div class="hero-sub">Coin</div>
       <div class="hero-divider"></div>
       <p class="hero-tagline">
